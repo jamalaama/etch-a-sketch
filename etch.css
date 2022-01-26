@@ -1,0 +1,50 @@
+html {
+	background: url(./doodle.jpg);
+	background-size: cover;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+h1{
+	margin: 16px;
+	padding: 15px;
+	border: 8px solid rgb(216, 158, 158);
+	background-color: white;
+	border-radius: 10px;
+}
+
+button{
+	width: 80px;
+	margin: 10px;
+	border: solid rgb(216, 158, 158);
+	border-radius: 10px;
+}
+
+#container{
+	width: fit-content;
+	height: fit-content;
+	width: 608px;
+	height: 608px;
+	border: 10px solid rgb(216, 158, 158);
+	border-radius: 10px;
+	background-color: white;
+}
+.gridRow {
+		height: 38px;
+		flex-wrap: wrap;
+}
+
+.cell {
+		display: inline-block;
+		flex-grow: 1;
+		flex-shrink: 1;
+		width: 38px;
+		height: 38px;
+}
+
+.changed {
+	background-color: black;
+}
